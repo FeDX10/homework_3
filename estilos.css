@@ -1,8 +1,48 @@
-.fondo {
-    background-color: red;
+.titulo {
+    color: blue;
+    font-size: 2em;
 }
 
-.mi_texto {
-    font-size: 80px;
-    color: green;
+#espe {
+    font-size: 2em;
+    color: brown;
+}
+
+.foto_tamanyo {
+    width: 200px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#parrafo {
+    border: 0.1em solid burlywood;
+    color: brown;
+    width: 50vw;
+    margin: auto;
+    padding: 40px;
+}
+
+.cards {
+    border: 0.5vw solid;
+    width: 12.52em;
+    padding: 1em 1em 1em 1em ;
+    border-radius: 10% ;
+}
+
+.cards:hover {
+    background-color: aquamarine;
+    transition: 1s;
+}
+
+.enlace {
+    color: blue; /* Color inicial */
+    text-decoration: none; /* Sin subrayado */
+    transition: 1s;
+}
+
+.enlace:hover {
+    color: red; /* Cambia el color al pasar el cursor */
+    text-decoration: underline; /* Añade un subrayado */
 }
