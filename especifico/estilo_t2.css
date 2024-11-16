@@ -1,0 +1,42 @@
+.footer_estilo{
+    font-size: 1em;
+}
+
+#cuadroRegistrese{
+    border: 5px solid rgb(0, 0, 0);
+    color: blanchedalmond;
+    border-radius: 3vw;
+    padding: 1%;
+    width: 2cm;
+}
+.margen{
+    margin: 0.8%;
+}
+
+.textoCentrado{
+    text-align: center;
+}
+
+.fuenteHeader{
+    font-size: 0.9em;
+    margin: 0%;
+}
+
+#ancho{
+    width: 200cm;
+}
+
+/* centrar imagen */
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    padding: 0.1cm;
+}
+
+.imagen-ajustada {
+    max-width: 10cm; /* Ajusta el ancho máximo al 80% del contenedor */
+    max-height: 10em; /* Ajusta la altura máxima al 80% del contenedor */
+    object-fit: contain; /* Mantiene la proporción de la imagen */
+    border: 2px solid rgb(234, 255, 0); /* Opcional: añade un borde */
+}
+
