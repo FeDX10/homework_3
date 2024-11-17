@@ -1,62 +1,66 @@
-.card-conteiner {
-    background-color: green;
-    margin-top: auto;
-    padding: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 10%;
+.titulo {
+    text-align: center;
+    color: beige;
+}
+
+.color-fondo {
+    background-color: rgb(0, 109, 109);
+}
+
+.datos-header {
+    margin-bottom: 0.2cm;
+}
+
+
+.parrafo-cuadro {
+    border: 2px solid white;
+    padding: 20px;
+    font-size: 16px;
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 1vw;
+    width: 300px;
+    height: 150px;
+}
+
+.titulo-main {
+    border-bottom: 2px solid black;
+    padding: 2px;
+    display: inline-block;
+    margin: 0;
+}
+
+.main-subtitulo-2 {
+    margin-top: -0.3cm;
+}
+
+.parrafo-identado-main {
+    text-indent: 2em;
+}
+
+#Lenguaje-interpretado {
+    margin-top: 2em;
+}
+
+.fondoColor-footer{
+    background-color: wheat;
+    margin-left: -8px; margin-right: -8px; margin-bottom: -19px;
+}
+
+.texto-footer{
+    margin-left: 15px;
+}
+
+.edicion-imagenes{
     display: flex;
-    flex-direction: row;
+    height: 200px;
+    margin: 10px;
     justify-content: space-evenly;
 }
 
-.cards {
-    border: 5px solid rgb(0, 0, 0);
-    width: fit-content;
-    padding: 19px;
-    border-radius: 10%;
-    padding: auto;
-    transition: 1s;
-    margin: 0%;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5cm;
-    align-items: center;
-}
-
-.tamanyo_hai {
-    height: 200px;
-    border-radius: 10%;
-    border: 3px solid white
-}
-
-.experimento:hover {
-    transition: 1s;
-    color: rebeccapurple;
-}
-
-/* pseudocodigo */
-/* color del link */
-a:link {
-    color: red;
-}
-
-/* cuando entras al link, dejas
- evidenciado tu ingreso */
-a:visited {
-    color: green;
-}
-
-/* al colocarlo encima del link, 
-tomara los siguientes colores */
-a:hover {
-    background-color: rgb(22, 116, 38);
-    color: rgb(0, 0, 0);
-}
-
-/* al momento de mantener presionado el 
-link, sin ingresar a al link */
-a:active {
-    background-color: orange;
+.border-foto-main{
+    border: 3px solid rgb(234, 234, 14);
+    padding: 15px;
+    border-radius: 1em;
+    background-color: gray;
 }
