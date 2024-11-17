@@ -1,0 +1,62 @@
+.card-conteiner {
+    background-color: green;
+    margin-top: auto;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cards {
+    border: 5px solid rgb(0, 0, 0);
+    width: fit-content;
+    padding: 19px;
+    border-radius: 10%;
+    padding: auto;
+    transition: 1s;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5cm;
+    align-items: center;
+}
+
+.tamanyo_hai {
+    height: 200px;
+    border-radius: 10%;
+    border: 3px solid white
+}
+
+.experimento:hover {
+    transition: 1s;
+    color: rebeccapurple;
+}
+
+/* pseudocodigo */
+/* color del link */
+a:link {
+    color: red;
+}
+
+/* cuando entras al link, dejas
+ evidenciado tu ingreso */
+a:visited {
+    color: green;
+}
+
+/* al colocarlo encima del link, 
+tomara los siguientes colores */
+a:hover {
+    background-color: rgb(22, 116, 38);
+    color: rgb(0, 0, 0);
+}
+
+/* al momento de mantener presionado el 
+link, sin ingresar a al link */
+a:active {
+    background-color: orange;
+}
